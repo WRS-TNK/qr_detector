@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/masaya-tier4/robotx_ws/install/include",
+                "/home/masaya-tier4/catkin_ws/devel/include",
+                "/opt/ros/kinetic/include",
+                "/home/masaya-tier4/catkin_ws/src/pointcloud_tools/include",
+                "/home/masaya-tier4/catkin_ws/src/qr_detector/include",
+                "/home/masaya-tier4/catkin_ws/src/joystick_drivers/wiimote/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

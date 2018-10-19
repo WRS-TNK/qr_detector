@@ -20,6 +20,9 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 add_library(qr_detector_nodelet src/qr_detector_nodelet.cpp src/detector.cpp)
 target_link_libraries(qr_detector_nodelet zbar ${catkin_LIBRARIES})
 
+add_executable(qr_detector_node src/qr_detector_node.cpp src/detector.cpp)
+target_link_libraries(qr_detector_node zbar ${catkin_LIBRARIES})
+
 install(TARGETS qr_detector_nodelet
     ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 	LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}

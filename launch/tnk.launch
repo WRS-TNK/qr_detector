@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="qr_detector" type="qr_detector_node" name="qr_detector_node">
+        <remap from="/image_raw" to="/camera/color/image_raw"/>
+    </node>
+</launch>
